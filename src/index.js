@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Platform, ViewPropTypes as RNViewPropTypes, StyleSheet, FlatList } from 'react-native';
+import { Platform, StyleSheet, FlatList } from 'react-native';
 import { Text, Input, View, Item, ListItem } from 'native-base';
+import { ViewPropTypes as RNViewPropTypes } from 'deprecated-react-native-prop-types';
 
 const ViewPropTypes = RNViewPropTypes || View.propTypes;
 
